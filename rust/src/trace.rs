@@ -119,9 +119,9 @@ pub async fn mempool_watching(target_address: String) -> Result<()> {
 
     let dexes_data = [(
         // Uniswap v3
-        "0x1F98431c8aD98523631AE4a59f267346ea31F984",
-        DexVariant::UniswapV3,
-        12369621u64,
+        "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
+        DexVariant::UniswapV2,
+        10000835u64,
     )];
     let dexes: Vec<_> = dexes_data
         .into_iter()
